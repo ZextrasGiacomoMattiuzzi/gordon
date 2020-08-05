@@ -6,7 +6,7 @@ install_requires = [
     'boto3>=1.2.3,<2.0',
     'clint>0.5,<1.0',
     'PyYAML>=3,<4.0',
-    'troposphere>=1.6',
+    'troposphere==1.6,<2.0',
     'Jinja2>=2.8,<3.0',
     'six>1.9,<2.0'
 ]
@@ -19,7 +19,7 @@ if sys.version_info < (2, 7):
 setup(
     name='gordon',
     version='0.7.0',
-    url='http://github.com/jorgebastida/gordon',
+    url='https://github.com/ZextrasGiacomoMattiuzzi/gordon',
     license='BSD',
     author='Jorge Bastida',
     author_email='me@jorgebastida.com',
